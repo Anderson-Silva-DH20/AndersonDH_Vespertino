@@ -1,0 +1,11 @@
+package Delivery;
+
+public class Massas {
+	String molho;
+	public void  menuMassas() {
+		
+		Massas massa = new Massas():
+		String ingredientesMassas [] = {"Macarrão", "Pizza","Lasanha"};
+		
+	}
+}

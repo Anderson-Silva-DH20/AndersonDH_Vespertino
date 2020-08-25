@@ -1,0 +1,6 @@
+package Delivery;
+
+public class TabelaPrecos {
+public void mostrarPrecos();
+
+}

@@ -1,0 +1,6 @@
+package Delivery;
+
+public class Sanduiche {
+
+	String ingredientes[10] = {1,2,3};
+}

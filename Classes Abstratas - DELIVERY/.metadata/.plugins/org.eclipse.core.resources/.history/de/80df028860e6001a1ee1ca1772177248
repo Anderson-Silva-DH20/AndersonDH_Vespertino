@@ -1,0 +1,42 @@
+package Delivery;
+
+import java.util.Scanner;
+
+public class Massas {
+	boolean molho;
+	
+	public void  menuMassas() {
+		Scanner leitor = new Scanner (System.in);
+		String escolhas ="Veja abaixo o que você selecionou em Massas:\n";
+		Massas massa = new Massas();
+		massa.molho = false;
+		
+		String tiposMassas [] = {"Macarrão", "Pizza","Lasanha"};
+		
+		System.out.println("Você selecionou a opção Massas. Selecione: \n"
+				+ "[1] Macarrão [2] Pizza [3] Lasanha");
+		int opcMassa = leitor.nextInt();
+		
+		while(opcMassa<1 || opcMassa>3) {
+			System.out.println("Opcão inválida! [1] Macarrão [2] Pizza [3] Lasanha");
+			opcMassa = leitor.nextInt();
+		}
+		escolhas+= "Tipo de massa: "+tiposMassas[opcMassa-1]+"\n";
+		System.out.println("Deseja adicionar molho a (ao) "+tiposMassas[opcMassa-1]+"? 0 - Sim | 1 - Não");
+		opcMassa = leitor.nextInt();
+		while(opcMassa!=1 && opcMassa!=0) {
+			System.out.println("Opcão inválida! 0 - Sim | 1 - Não");
+			opcMassa = leitor.nextInt();
+		}
+		if(opcMassa==0) {
+			massa.molho = true;
+			escolhas+= "Molho: SIM ";
+		}
+		else {
+			escolhas+="Molho? NÃO";
+		}
+		
+		System.out.println(escolhas);
+	}
+	
+}

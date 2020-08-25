@@ -1,0 +1,15 @@
+package Delivery;
+
+public class Massas {
+	String molho;
+	
+	public void  menuMassas() {
+		
+		String tiposMassas [] = {"Macarrão", "Pizza","Lasanha"};
+		
+		System.out.println("Você selecionou a opção Massas. Selecione: \n"
+				+ "[1] Macarrão [2] Pizza [3] Lasanha");
+		
+	}
+	
+}

@@ -1,0 +1,8 @@
+package Delivery;
+
+public class TempoDeEntrega {
+
+ public void calcularTempo() {
+	 
+ }
+}

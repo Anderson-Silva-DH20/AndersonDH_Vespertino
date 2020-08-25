@@ -1,0 +1,11 @@
+package Delivery;
+
+public class TempoDeEntrega {
+
+ public void calcularTempo(int opcaoSelecionada) {
+	 int tempo;
+	 if(opcaoSelecionada == 1) {
+		 
+	 }
+ }
+}

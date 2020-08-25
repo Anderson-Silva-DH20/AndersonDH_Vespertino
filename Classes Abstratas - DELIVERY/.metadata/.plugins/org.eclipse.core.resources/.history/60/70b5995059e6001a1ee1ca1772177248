@@ -1,0 +1,13 @@
+package Delivery;
+
+public class Sanduiche {
+
+	String ingredientesSanduiche [] = {"Linguiça","Presunto","Queijo","Ovos","Tomate"
+			+"Alface","Orégano","Pepino","Ketchup","Maionese"};
+	
+	public void menuSandu() {
+		System.out.println("Você selecionou a opção Sanduíche. Por favor, selecione até 10 ingredientes"
+				+ "Caso não deseje continuar escolhendo, digite 0 a qualquer momento");
+	}
+
+}

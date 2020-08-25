@@ -1,0 +1,10 @@
+package Delivery;
+
+public class Bolo {
+
+	public void menuBolos() {
+		System.out.println("Você selecionou a opção Bolos. Vamos montar o seu bolo?" );
+		System.out.println("Primeiramente, escolha o tipo de massa\n"
+				+ "[1] Pão de Ló [2] " );
+	}
+}

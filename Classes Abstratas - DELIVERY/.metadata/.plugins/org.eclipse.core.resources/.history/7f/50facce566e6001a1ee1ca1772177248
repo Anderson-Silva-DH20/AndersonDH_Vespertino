@@ -1,0 +1,19 @@
+package Delivery;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+	Menu menu = new Menu();
+	TempoDeEntrega tempo = new TempoDeEntrega();
+	
+	int opcao = menu.chamarMenu();
+	
+	tempo.calcularTempo(opcao);
+	
+	
+	}
+
+
+
+}

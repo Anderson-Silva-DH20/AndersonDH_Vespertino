@@ -1,0 +1,13 @@
+package Delivery;
+
+public class TabelaPrecos {
+	
+public void mostrarPrecos(){
+	
+	System.out.println("----- TABELA DE PREÇOS ----- \n"
+			+ "[1] Sanduíche - R$10,00\n"
+			+ "[2] Massas - R$20,00\n"
+			+ "[3] Bolo - R$30,00");
+}
+
+}

@@ -1,0 +1,9 @@
+package Delivery;
+
+public class Sanduiche {
+
+	String ingredientesSanduiche [] = {"Linguiça","Presunto","Queijo","Ovos","Tomate"+,
+			+ "Manjericão","Alface",};
+	
+
+}

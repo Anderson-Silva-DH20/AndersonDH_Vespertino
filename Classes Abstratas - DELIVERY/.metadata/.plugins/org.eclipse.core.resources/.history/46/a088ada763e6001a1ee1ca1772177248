@@ -1,0 +1,37 @@
+package Delivery;
+
+import java.util.Scanner;
+
+public class Bolo {
+
+	public void menuBolos() {
+		Scanner leitor = new Scanner (System.in);
+		int opcaoBolo;
+		
+		String escolhasBolo="No menu Bolos você escolheu as opções a seguir:\n";
+		String massasBolo[]= {"[1] Pão de Ló","[2] Genoise","[3] Chiffon","[4] Amanteigada"};
+		String recheioBolo[] = {"[1] Prestígio","[2] Nutela","[3] Leite Ninho","[4] Oreo","[5] Buttercream"};
+		
+		System.out.println("Você selecionou a opção Bolos. Vamos começar a montá-lo?" );
+		// ESCOLHENDO A MASSA
+		System.out.println("Primeiramente, escolha o tipo de massa\n"
+				+ "[1] Pão de Ló [2] Genoise [3] Chiffon [4] Amanteigada " );
+		 opcaoBolo = leitor.nextInt();
+		while (opcaoBolo>4 || opcaoBolo<1) {
+			System.out.println("Opção inválida. Escolha novamente \n"
+					+ "[1] Pão de Ló [2] Genoise [3] Chiffon [4] Amanteigada ");
+		}
+		escolhasBolo+="Tipo de Massa: "+massasBolo[opcaoBolo]+"\n";
+		
+		//ESCOLHENDO O RECHEIO
+		System.out.println("Desta vez, escolha o recheio\n"
+				+"[1] Prestígio [2] Nutela [3] Leite Ninho [4] Oreo [5] Buttercream");
+		
+		opcaoBolo = leitor.nextInt();
+		while (opcaoBolo>5 || opcaoBolo<1) {
+			System.out.println("Opção inválida. Escolha novamente \n"
+					+ "[1] Prestígio [2] Nutela [3] Leite Ninho [4] Oreo [5] Buttercream");
+		}
+		escolhasBolo+="Recheio: "+recheioBolo[opcaoBolo-1]+"\n";
+	}
+}

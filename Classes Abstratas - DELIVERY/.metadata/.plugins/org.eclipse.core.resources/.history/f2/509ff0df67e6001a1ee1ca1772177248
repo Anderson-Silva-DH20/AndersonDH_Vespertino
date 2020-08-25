@@ -1,0 +1,13 @@
+package Delivery;
+
+public class Valores {
+
+	public void calcularValor(int opcaoSelecionada) {
+		float preco;
+		
+		if(opcaoSelecionada ==1) {
+			preco = 30;
+			
+		}
+	}
+}

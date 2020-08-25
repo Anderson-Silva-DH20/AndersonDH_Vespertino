@@ -1,0 +1,11 @@
+package Delivery;
+
+public class Menu {
+	
+public void chamarMenu() {
+	int opcao = 0;
+	
+	System.out.println("Bem vindo ao *Delivery Golden Beef*");
+}
+
+}

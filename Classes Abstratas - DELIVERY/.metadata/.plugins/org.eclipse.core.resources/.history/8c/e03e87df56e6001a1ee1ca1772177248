@@ -1,0 +1,14 @@
+package Delivery;
+
+public class Menu {
+	
+public void chamarMenu() {
+	int opcao = 0;
+	
+	System.out.println("Bem vindo ao *Delivery Golden Beef*");
+	
+	System.out.println("Selecione uma opção\n"
+			+ "[1] Sanduíches  |  [2] Massas  |  [3] Bolos");
+}
+
+}

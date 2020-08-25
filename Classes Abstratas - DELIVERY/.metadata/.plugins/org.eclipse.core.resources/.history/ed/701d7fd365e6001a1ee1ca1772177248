@@ -1,0 +1,12 @@
+package Delivery;
+
+public class TempoDeEntrega {
+
+ public void calcularTempo(int opcaoSelecionada) {
+	 int tempo;
+	 float distancia;
+	 if(opcaoSelecionada == 1) {
+		 tempo = 3;
+	 }
+ }
+}

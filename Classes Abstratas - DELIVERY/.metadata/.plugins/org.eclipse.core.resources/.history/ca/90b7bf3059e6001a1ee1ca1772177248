@@ -1,0 +1,12 @@
+package Delivery;
+
+public class Sanduiche {
+
+	String ingredientesSanduiche [] = {"Linguiça","Presunto","Queijo","Ovos","Tomate"
+			+"Alface","Orégano","Pepino","Ketchup","Maionese"};
+	
+	public void menuSandu() {
+		
+	}
+
+}

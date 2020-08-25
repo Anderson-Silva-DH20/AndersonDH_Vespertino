@@ -1,0 +1,22 @@
+package Delivery;
+
+import java.util.Scanner;
+
+public class TempoDeEntrega {
+
+ public void calcularTempo(int opcaoSelecionada) {
+	 float tempo;
+	 float distancia;
+	 Scanner leitor = new Scanner (System.in);
+	 
+	 System.out.println("Qual é a sua distância até o Delivery Golden Beef (em KM)?");
+	 distancia = leitor.nextFloat();
+	 
+	 if(opcaoSelecionada == 1) {
+		 tempo = 15 + (distancia*10) ; // op 1 = sanduiche -> 10 min por km
+	 }
+	 else if(opcaoSelecionada == 2) {
+		 tempo = 30 + (distancia*10) ; // op 1 = sanduiche -> 10 min por km
+	 }
+ }
+}

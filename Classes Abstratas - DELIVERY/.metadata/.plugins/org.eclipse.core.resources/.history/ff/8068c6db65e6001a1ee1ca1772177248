@@ -1,0 +1,14 @@
+package Delivery;
+
+public class TempoDeEntrega {
+
+ public void calcularTempo(int opcaoSelecionada) {
+	 int tempo;
+	 float distancia;
+	 
+	 System.out.println("Qual é a sua distância até o Delivery Golden Beef?");
+	 if(opcaoSelecionada == 1) {
+		 tempo = 3;
+	 }
+ }
+}

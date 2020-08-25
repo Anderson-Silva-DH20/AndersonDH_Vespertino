@@ -1,0 +1,27 @@
+package Delivery;
+
+import java.util.Scanner;
+
+public class Sanduiche {
+	Scanner leitor = new Scanner (System.in);
+	
+	String ingredientesSanduiche [] = {"Linguiça","Presunto","Queijo","Ovos","Tomate"
+			+"Alface","Orégano","Pepino","Ketchup","Maionese"};
+	int opcaoSandu;
+	
+	public void menuSandu() {
+		System.out.println("Você selecionou a opção Sanduíche. Por favor, selecione até 10 ingredientes"
+				+ "Caso não deseje continuar escolhendo, digite 0 a qualquer momento");
+		
+	for (int i = 0; i < ingredientesSanduiche.length; i++) {
+		
+		System.out.println("Digite "+(i+1)+"para adicionar "+ingredientesSanduiche[i]);
+	    opcaoSandu =leitor.nextInt() - 1;
+	    while(opcaoSandu>10 && opcaoSandu<1) {
+			System.out.println("Opção Inválida! Por favor, escolha novamente");
+			opcaoSandu =leitor.nextInt() - 1;
+		}
+	}
+	}
+
+}
