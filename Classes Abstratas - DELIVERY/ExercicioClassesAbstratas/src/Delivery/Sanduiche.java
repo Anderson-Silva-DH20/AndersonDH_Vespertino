@@ -3,6 +3,7 @@ package Delivery;
 import java.util.Scanner;
 
 public class Sanduiche {
+
 	Scanner leitor = new Scanner (System.in);
 	
 	String ingredientesSanduiche [] = {"Linguiça","Presunto","Queijo","Ovos","Tomate"

@@ -1,7 +1,0 @@
-package Delivery;
-
-public class Sanduiche {
-
-	String nome[] = new String [10];
-	
-}

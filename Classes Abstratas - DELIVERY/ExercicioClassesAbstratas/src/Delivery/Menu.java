@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Menu {
 	
 public int chamarMenu() {
-	int opcao = 0;
+	int opcao;
 	
 	Sanduiche sandu = new Sanduiche();
 	Massas massa = new Massas();
